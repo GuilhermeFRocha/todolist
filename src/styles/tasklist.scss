@@ -14,7 +14,7 @@ section.task-list {
     justify-content: space-between;
     
     h2 {
-      color: var(--text-title);
+      color: #6337eb;
       font-size: 2.25rem;
     }
 
@@ -45,7 +45,7 @@ section.task-list {
         font-weight: 600;
         border-radius: 8px;
         border: 0;
-        background: var(--green);
+        background: #4fd523;
         color: #fff;
         display: flex;
         flex-direction: row;
@@ -107,7 +107,7 @@ section.task-list {
 
               &:checked {
                 & ~ .checkmark {
-                  background-color: var(--blue);
+                  background-color: #4fd523
                 }
 
                 & ~ .checkmark:after {
